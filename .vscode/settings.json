@@ -1,0 +1,17 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/jirsychan/Documents/javafx-sdk-25.0.1/lib/jfx.incubator.richtext.jar",
+        "/Users/jirsychan/Documents/javafx-sdk-25.0.1/lib/jfx.incubator.input.jar",
+        "/Users/jirsychan/Documents/javafx-sdk-25.0.1/lib/jdk.jsobject.jar",
+        "/Users/jirsychan/Documents/javafx-sdk-25.0.1/lib/javafx.web.jar",
+        "/Users/jirsychan/Documents/javafx-sdk-25.0.1/lib/javafx.swing.jar",
+        "/Users/jirsychan/Documents/javafx-sdk-25.0.1/lib/javafx.media.jar",
+        "/Users/jirsychan/Documents/javafx-sdk-25.0.1/lib/javafx.fxml.jar",
+        "/Users/jirsychan/Documents/javafx-sdk-25.0.1/lib/javafx.controls.jar",
+        "/Users/jirsychan/Documents/javafx-sdk-25.0.1/lib/javafx.base.jar",
+        "/Users/jirsychan/Documents/javafx-sdk-25.0.1/lib/javafx-swt.jar",
+        "/Users/jirsychan/Documents/javafx-sdk-25.0.1/lib/javafx.graphics.jar",
+        "/Users/jirsychan/Documents/javafx-sdk-25.0.1/lib/sqlite-jdbc-3.51.1.0.jar"
+    ]
+}

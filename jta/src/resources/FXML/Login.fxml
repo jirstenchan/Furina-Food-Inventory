@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="920.0" prefWidth="1510.0" scaleShape="false" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Login_Controller">
+   <children>
+      <Rectangle fx:id="backdrop" arcHeight="5.0" arcWidth="5.0" fill="#624d74" height="745.0" layoutX="-62.0" layoutY="-378.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1510.0" AnchorPane.bottomAnchor="-12.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Rectangle fx:id="wood_stage" arcHeight="5.0" arcWidth="5.0" fill="#725035" height="190.0" layoutY="1083.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1510.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Ellipse fx:id="stage_shadow" layoutX="733.0" layoutY="729.0" opacity="0.5" radiusX="882.0" radiusY="166.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Ellipse fx:id="stage" fill="#dcc67d" layoutX="735.0" layoutY="721.0" radiusX="882.0" radiusY="156.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <AnchorPane fx:id="left_curtain" layoutX="231.0" layoutY="231.0" prefHeight="920.0" prefWidth="597.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Ellipse layoutX="173.0" layoutY="218.0" radiusX="283.0" radiusY="443.0" rotate="30.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" AnchorPane.leftAnchor="-110.0" />
+            <Ellipse layoutX="35.0" layoutY="792.0" opacity="0.8" radiusX="122.0" radiusY="364.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Ellipse fill="#382832" layoutX="154.0" layoutY="183.0" radiusX="255.0" radiusY="418.0" rotate="30.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" AnchorPane.bottomAnchor="319.0" AnchorPane.leftAnchor="-101.0" AnchorPane.rightAnchor="188.0" AnchorPane.topAnchor="-235.0" />
+            <Ellipse fill="#382832" layoutX="9.0" layoutY="773.0" radiusX="106.0" radiusY="308.0" rotate="5.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Rectangle arcHeight="100.0" arcWidth="20.0" fill="#382832" height="34.0" layoutX="-16.0" layoutY="523.0" rotate="25.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.3" width="139.0" y="-4.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="right_curtain" layoutX="241.0" layoutY="241.0" prefHeight="1070.0" prefWidth="768.0" AnchorPane.rightAnchor="-91.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Ellipse layoutY="228.0" radiusX="288.0" radiusY="447.0" rotate="-27.6" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="-35.0" AnchorPane.topAnchor="-219.0" />
+            <Ellipse layoutX="619.0" layoutY="737.0" opacity="0.8" radiusX="93.0" radiusY="335.0" rotate="1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Ellipse fill="#382832" layoutX="10.0" layoutY="221.0" radiusX="260.0" radiusY="423.0" rotate="-31.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" AnchorPane.rightAnchor="-31.0" AnchorPane.topAnchor="-212.0" />
+            <Ellipse fill="#382832" layoutX="646.0" layoutY="728.0" radiusX="76.0" radiusY="352.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Rectangle arcHeight="100.0" arcWidth="20.0" fill="#382832" height="32.0" layoutX="549.0" layoutY="538.0" rotate="-23.8" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.3" width="142.0" AnchorPane.topAnchor="538.0" />
+         </children>
+      </AnchorPane>
+      <Polygon fill="#fffcc4" layoutX="931.0" layoutY="-255.0" opacity="0.55" points="-383.74365234375, 121.12588500976562, -1021.5538330078125, 1300.9266357421875, -328.0723876953125, 1338.6341552734375" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Polygon fill="#fffcc4" layoutX="941.0" layoutY="-245.0" opacity="0.55" points="80.2520751953125, 51.18504333496094, -0.358154296875, 1325.0, 635.1561279296875, 1194.0654296875" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <AnchorPane layoutX="125.0" layoutY="139.0" prefHeight="920.0" prefWidth="1510.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Ellipse layoutX="766.0" layoutY="132.0" opacity="0.5" radiusX="135.0" radiusY="123.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Ellipse layoutX="538.0" layoutY="95.0" opacity="0.5" radiusX="141.0" radiusY="76.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Ellipse layoutX="283.0" layoutY="117.0" opacity="0.5" radiusX="187.0" radiusY="88.0" rotate="-14.9" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Rectangle arcHeight="20.0" arcWidth="20.0" height="73.0" layoutX="109.0" layoutY="173.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="83.0" />
+            <Rectangle arcHeight="20.0" arcWidth="20.0" height="50.0" layoutX="74.0" layoutY="279.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="63.0" />
+            <Rectangle arcHeight="20.0" arcWidth="20.0" height="63.0" layoutX="12.0" layoutY="370.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="70.0" />
+            <Ellipse layoutX="996.0" layoutY="96.0" opacity="0.5" radiusX="133.0" radiusY="77.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Ellipse layoutX="1254.0" layoutY="115.0" opacity="0.5" radiusX="163.0" radiusY="96.0" rotate="19.4" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="83.0" layoutX="1332.0" layoutY="171.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="59.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="56.0" layoutX="1388.0" layoutY="283.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="61.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="61.0" layoutX="1443.0" layoutY="382.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="42.0" />
+            <ImageView fitHeight="952.0" fitWidth="1564.0" AnchorPane.leftAnchor="-27.0" AnchorPane.topAnchor="-24.0">
+               <image>
+                  <Image url="@../Images/Header.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="177.0" layoutY="96.0" prefHeight="200.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="235.0" layoutY="202.0" prefHeight="668.0" prefWidth="1059.0">
+         <children>
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#fbf8cd" height="602.0" layoutX="39.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="11.0" width="980.0" />
+            <ImageView fitHeight="312.0" fitWidth="512.0" layoutX="283.0" layoutY="-11.0">
+               <image>
+                  <Image url="@../Images/Furima.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="password" layoutX="247.0" layoutY="350.0" onAction="#password" prefHeight="91.0" prefWidth="585.0" promptText="password">
+               <font>
+                  <Font size="44.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="username" layoutX="244.0" layoutY="211.0" onAction="#username" prefHeight="94.0" prefWidth="585.0" promptText="username">
+               <font>
+                  <Font size="44.0" />
+               </font>
+            </TextField>
+            <Button fx:id="login_button" layoutX="340.0" layoutY="494.0" mnemonicParsing="false" onAction="#login_button" prefHeight="78.0" prefWidth="371.0" text="Login">
+               <font>
+                  <Font size="41.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="929.0" fitWidth="1530.0" layoutX="-10.0" opacity="0.79" visible="false">
+         <image>
+            <Image url="@../../../../../../../../var/folders/1f/4hch5glj4zv3s4_brt1q_pxc0000gn/T/TemporaryItems/NSIRD_screencaptureui_7f103r/Screenshot%202025-12-20%20at%204.41.05%20PM.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
