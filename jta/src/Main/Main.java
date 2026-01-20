@@ -3,9 +3,7 @@ package Main;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
 import org.w3c.dom.css.Rect;
-
 import java.sql.SQLException;
 import javafx.application.Application;
 import javafx.scene.Group;

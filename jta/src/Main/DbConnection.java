@@ -1,6 +1,5 @@
 package Main;
 
-
 //Connecting the Database
 import java.sql.*;
 
